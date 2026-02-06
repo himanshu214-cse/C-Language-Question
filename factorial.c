@@ -34,12 +34,19 @@
 #include<stdio.h>
 int main() {
     int num;
-    printf("Enetr a number: ");
+    printf("Enter a number: ");
     scanf("%d", &num);
-    int fact = 1;
-    for(int i=1; i<=num; i++) {
-        fact = fact*i;
+
+    if(num < 0) {
+        printf("Factorial not defined for negative numbers");
     }
-    printf("%d", fact);
+    else {
+        int fact = 1;
+        for(int i = 1; i <= num; i++) {
+            fact = fact * i;
+        }
+        printf("%d", fact);
+    }
+
     return 0;
 }
