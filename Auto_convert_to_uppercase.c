@@ -14,6 +14,24 @@
 // OR
 
 // The message "Already in upper case" if the character is not lowercase.
+// Input
+
+// b
+
+
+// Output
+
+// B
+
+
+// Input
+
+// A
+
+
+// Output
+
+// Already in upper case
 
     
 #include<stdio.h>
