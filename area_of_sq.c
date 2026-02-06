@@ -6,11 +6,6 @@
 
 // Calculate the area using the formula:
 
-// Area
-// =
-// side
-// ×
-// side
 // Area=side×side
 
 // Display the calculated area.
